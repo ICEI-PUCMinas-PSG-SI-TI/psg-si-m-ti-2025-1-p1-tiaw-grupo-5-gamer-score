@@ -3,7 +3,7 @@
 
 Trabalho Interdisciplinar - Aplicacões Web
 
-`CURSO`: Trabalho Interdisciplinar: Aplicações Web
+`CURSO`: Sistemas de Informação
 
 `SEMESTRE:` > Primeiro semestre
 
