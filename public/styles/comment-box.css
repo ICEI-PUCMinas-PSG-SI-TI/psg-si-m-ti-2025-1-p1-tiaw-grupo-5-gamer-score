@@ -1,0 +1,118 @@
+.comment-box {
+    background: var(--gray-800);
+    border-radius: 8px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.commentBoxForm {
+    width: 100%;
+}
+
+.commentBoxForm > strong {
+    line-height: 1.6;
+    color: var(--gray-100);
+
+}
+
+.commentBoxForm textarea {
+    width: 100%;
+    background: var(--gray-900);
+    border: 0;
+    resize: none;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.commentBoxForm textarea:focus{
+    outline: none;
+    outline-color: var(--green-500);
+}
+
+.commentBoxForm button[type=submit] {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--green-500);
+    font-weight: bold;
+    cursor: pointer;
+    
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.commentBoxForm button:hover {
+    background: var(--green-500);
+    color: var(--white);
+}
+
+#game-select {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray-900); 
+    color: var(--gray-400);
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+
+    cursor: pointer;
+
+    transition: color 0.2s, background-color 0.2s;
+}
+
+#game-select:focus {
+    color: var(--green-500);
+}
+
+#score-select {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray-900); 
+    color: var(--gray-400);
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    margin-left: 0.6rem;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    
+    transition: color 0.2s, background-color 0.2s;
+}
+
+#score-select:focus {
+    color: var(--green-500);
+}
+
+#platform-select {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray-900); 
+    color: var(--gray-400);
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    
+    transition: color 0.2s, background-color 0.2s;
+}
+
+#platform-select:focus {
+    color: var(--green-500);
+}
+

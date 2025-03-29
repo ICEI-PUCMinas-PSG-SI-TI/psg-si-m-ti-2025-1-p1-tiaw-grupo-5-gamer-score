@@ -1,0 +1,205 @@
+{
+  "games": [
+    {
+      "name": "Counter Strike 2",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.ign.com%2Fcounter-strike-2&psig=AOvVaw1tyZ_RlzIKNMBEsGUxiapx&ust=1741378248105000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPju69Ch9osDFQAAAAAdAAAAABAJ",
+      "genre": "FPS",
+      "avarage_score": 0,
+      "graphic_cards": [
+        "GTX 1650",
+        "RX 6400",
+        "Intel Arc A380",
+        "GTX 1050 Ti",
+        "RTX 3060"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "game_id": "8f04",
+          "game_name": "Counter Strike 2",
+          "platform": "pc",
+          "user": "Henrique",
+          "score": 7,
+          "date": "2023-07-15T08:45:22.456Z",
+          "comment": "Melhor FPS do mercado",
+          "comment_id": 1
+        }
+      ],
+      "id": "8f04"
+    },
+    {
+      "name": "Final Fantasy 13",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.square-enix-games.com%2Fpt_BR%2Fgames%2Ffinal-fantasy-xiii&psig=AOvVaw3qSgei2UOpNUUopKu5nTZk&ust=1741377646490000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODOi7Wf9osDFQAAAAAdAAAAABAS",
+      "genre": "RPG",
+      "avarage_score": 21,
+      "graphic_cards": [
+        "GTX 660",
+        "GTX 1050 Ti",
+        "GTX 1650",
+        "RTX 3060",
+        "RX 6400"
+      ],
+      "comments": [
+        {
+          "id": "1",
+          "game_id": "8f05",
+          "game_name": "Final Fantasy 13",
+          "platform": "pc",
+          "user": "Henrique",
+          "role": "Moderador",
+          "score": "4",
+          "date": "2025-03-14T20:16:56.109Z",
+          "comment": "Jogo muito legal",
+          "comment_id": 2
+        }
+      ],
+      "id": "8f05"
+    },
+    {
+      "name": "Skyrim",
+      "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/aa/The_Elder_Scrolls_5_Skyrim_capa.png/270px-The_Elder_Scrolls_5_Skyrim_capa.png",
+      "genre": "RPG",
+      "avarage_score": 27.5,
+      "graphic_cards": [
+        "GTX 660",
+        "GTX 1050 Ti",
+        "GTX 1650",
+        "RTX 3060",
+        "RX 6400"
+      ],
+      "comments": [
+        {
+          "id": "2",
+          "game_id": "8f06",
+          "game_name": "Skyrim",
+          "platform": "switch",
+          "user": "Dava Jonas",
+          "role": "Mago",
+          "score": "5",
+          "date": "2025-03-16T11:37:36.417Z",
+          "comment": "Eu já joguei todos os jogos todos, vagabundo é foda",
+          "comment_id": 12886
+        },
+        {
+          "id": "2",
+          "game_id": "8f06",
+          "game_name": "Skyrim",
+          "platform": "switch",
+          "user": "Dava Jonas",
+          "role": "Mago",
+          "score": "5",
+          "date": "2025-03-16T11:41:18.960Z",
+          "comment": "Teste teste, jogo muito bom",
+          "comment_id": 11693
+        }
+      ],
+      "id": "8f06"
+    },
+    {
+      "name": "The Witcher 3",
+      "image": "https://upload.wikimedia.org/wikipedia/pt/0/06/TW3_Wild_Hunt.png",
+      "genre": "RPG",
+      "avarage_score": 45.5,
+      "graphic_cards": [
+        "GTX 660",
+        "GTX 1050 Ti",
+        "GTX 1650",
+        "RTX 3060",
+        "RX 6400"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "game_id": "8f07",
+          "game_name": "The Witcher 3",
+          "platform": "playstation",
+          "user": "Henrique",
+          "score": 9,
+          "date": "2024-08-30T14:32:10.123Z",
+          "comment": "O jogo que me fez gostar de RPGs. The Witcher entrega diversas ambientações, impossível não parar pra aproveitar a vista a cada 100 metros, vilas, montanhas, árvores, biomas, um prato cheio. Graficamente envelheceu bem, com o upgrade você se questiona se esse jogo tem mesmo 10 anos.",
+          "comment_id": 3
+        },
+        {
+          "id": "1",
+          "game_id": "8f07",
+          "game_name": "The Witcher 3",
+          "platform": "xbox",
+          "user": "Henrique",
+          "role": "Admin",
+          "score": "1",
+          "date": "2025-03-16T11:41:44.920Z",
+          "comment": "TESTE TESTE",
+          "comment_id": 82282
+        }
+      ],
+      "id": "8f07"
+    },
+    {
+      "name": "Terraria",
+      "image": "https://upload.wikimedia.org/wikipedia/pt/e/ee/Terraria_capa.png",
+      "genre": "Sandbox",
+      "avarage_score": 0,
+      "graphic_cards": [
+        "GTX 1650",
+        "RX 6400",
+        "Intel Arc A380",
+        "GTX 1050 Ti",
+        "RTX 3060"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "game_id": "8f08",
+          "game_name": "Terraria",
+          "platform": "switch",
+          "user": "Henrique",
+          "score": 10,
+          "date": "2024-11-30T14:32:10.123Z",
+          "comment": "Cave, lute, explore, construa! – Esse é o lema de Terraria...",
+          "comment_id": 4
+        }
+      ],
+      "id": "8f08"
+    },
+    {
+      "name": "GTA V",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+      "genre": "Action, Open-World",
+      "average_score": 9.5,
+      "graphic_cards": [
+        "GTX 660",
+        "GTX 1050 Ti",
+        "GTX 1650",
+        "RTX 3060",
+        "RX 6400"
+      ],
+      "comments": [
+        {
+          "id": 2,
+          "game_id": "8f08",
+          "game_name": "GTA V",
+          "platform": "pc",
+          "user": "Dava Jonas",
+          "score": 10,
+          "date": "2025-02-14T14:32:10.123Z",
+          "comment": "EU JÁ JOGUEI TODOS OS JOGOS, TODOS.... e nenhum se eguala ao Grand Theft Auto da Rockstar",
+          "comment_id": 5
+        },
+        {
+          "id": "1",
+          "game_id": "8f09",
+          "game_name": "GTA V",
+          "platform": "pc",
+          "user": "Henrique",
+          "role": "Admin",
+          "score": "5",
+          "date": "2025-03-16T11:38:25.606Z",
+          "comment": "TESTE",
+          "comment_id": 36105
+        }
+      ],
+      "id": "8f09",
+      "avarage_score": 52.5
+    }
+  ]
+}
