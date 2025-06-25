@@ -1,0 +1,230 @@
+.comment-box {
+    background: var(--gray-800);
+    border-radius: 8px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.commentBoxForm {
+    width: 100%;
+}
+
+.commentBoxForm > strong {
+    line-height: 1.6;
+    color: var(--gray-100);
+
+}
+
+.commentBoxForm textarea {
+    width: 100%;
+    background: var(--gray-900);
+    border: 0;
+    resize: none;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.commentBoxForm textarea:focus{
+    outline: none;
+    outline-color: var(--green-500);
+}
+
+.commentBoxForm button[type=submit] {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--green-500);
+    font-weight: bold;
+    cursor: pointer;
+    
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.commentBoxForm button:hover {
+    background: var(--green-500);
+    color: var(--white);
+}
+
+#game-select {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray-900); 
+    color: var(--gray-400);
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+
+    cursor: pointer;
+
+    transition: color 0.2s, background-color 0.2s;
+}
+
+#game-select:focus {
+    color: var(--green-500);
+}
+
+#score-select {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray-900); 
+    color: var(--gray-400);
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    margin-left: 0.6rem;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    
+    transition: color 0.2s, background-color 0.2s;
+}
+
+#score-select:focus {
+    color: var(--green-500);
+}
+
+#platform-select {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray-900); 
+    color: var(--gray-400);
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    
+    transition: color 0.2s, background-color 0.2s;
+}
+
+#platform-select:focus {
+    color: var(--green-500);
+}
+
+
+/* Filtro de pesquisa */
+
+#filtro {
+    font-family: 'Roboto', sans-serif;
+    background-color: #282024; 
+    color: var(--gray-400);
+    border : 0;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    transition: color 0.2s, background-color 0.2s;
+}
+
+/*Botão modo escuro/claro*/
+
+.dark .comment-box {
+    background: rgb(226, 225, 225);
+}
+
+.dark .commentBoxForm textarea {
+    background: #bdbdbd;
+    color: black;
+}
+
+.dark #game-select {
+    background-color: #c5c5c5; 
+    color: black;
+}
+
+.dark #game-select:focus {
+    color: black;
+}
+
+.dark #score-select {
+
+    background-color: #c5c5c5; 
+    color: black;
+    
+}
+
+.dark #score-select:focus {
+    background-color: #c5c5c5;
+    color: black;
+}
+
+.dark #platform-select {
+    background-color: #c5c5c5; 
+    color: black;
+    
+}
+
+.dark #platform-select:focus {
+    color:black;
+    background-color: #c5c5c5;
+}
+.dark #filtro {
+    background-color: #ffffff; 
+    color: black;
+}
+
+.dark #game-filter,
+.dark #score-filter,
+.dark #platform-filter {
+    color:black;
+    background-color: #c5c5c5;
+}
+
+#game-filter,
+#score-filter,
+#platform-filter {
+
+    font-size: 1rem;
+    background: var(--gray-800);
+    color: var(--green-500);
+    border: 1px solid var(--green-500);
+    border-radius: 10px;
+    height: 50px;
+    padding: 0 1rem;
+    font-weight: bold;
+    min-width: 120px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+
+#game-filter:hover, #score-filter:hover, #platform-filter:hover {
+    background: var(--green-500);
+    color: var(--white);
+}
+
+#game-filter option,
+#score-filter option, 
+#platform-filter option {
+    background-color: var(--gray-800);
+    color: var(--gray-100);
+    padding: 8px;
+}

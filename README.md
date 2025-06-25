@@ -1,53 +1,31 @@
-# Informações do Projeto
-`TÍTULO DO PROJETO`  
+# Gamer Score
 
-Trabalho Interdisciplinar - Aplicacões Web
+Welcome to the **[Gamer Score]** repository! This project uses **JSON Server** to simulate a backend for games and user login. Below are the instructions to set up and run the JSON Server for both games and user authentication.
 
-`CURSO`: 
+---
 
-`SEMESTRE:`
+## 🚀 Getting Started
 
-`OBJETIVO ODS:` > Inclua os numeros e a descrição do(s) objetivo(s) ODS da ONU que o Projeto vai atender. 
+Follow these instructions to get the project up and running locally:
 
-## Participantes
+### 1. **Install Dependencies**
 
-Os membros do grupo são: 
-- Fulano da Silva
-- Ciclano Albuquerque
+First, ensure that you have `npx` installed. If not, you can install it by running:
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
+```bash
+npm install
+```
 
-# Estrutura do Projeto
+### 2. **Start the databases**
 
-1. [Contexto](./docs/1-Contexto.md)
-2. [Especificações do Projeto](./docs/2-Especificação.md)
-3. [Projeto da Interface](./docs/3-Interface.md)
-4. [Gerenciamento do Projeto](./docs/4-Gerenciamento-Projeto.md)
-5. [Implementação](./docs/5-Implementação.md)
-6. [Referências](./docs/6-Referências.md)
-7. [Apresentação do trabalho](./docs/apresentacao/README.md) 
+Second, start the JSON SERVERS database using `json-server`
 
+Game database
+```bash
+npx json-server --watch data/db.json --port 3000
+```
 
-
-## Pasta docs
-
-Esta pasta arquiva a documentação dos projetos.
-
-
-Na pasta `docs`, há uma subpasta `images` que deve arquivar todas as
-imagens utilizadas para a elaboração do documento.
-
-
-## Pasta src
-
-Este diretório armazena o código fonte do projeto e adota uma hierarquia
-básica de projetos Web simples, que utilizam as tecnologias HTML, CSS e
-JavaScript.
-
-### Links Úteis:
-
-Aprenda Markdown e use-o para documentar o projeto  
-
-> [Sintaxe básica de gravação e formatação no GitHub](https://guides.github.com/features/mastering-markdown/)
-
-> [Suporte Github](https://help.github.com/pt/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+Users database
+```bash
+npx json-server --watch data/auth.json --port 3001
+```

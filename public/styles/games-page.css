@@ -1,0 +1,63 @@
+main {
+      padding: 2rem;
+    }
+
+    h1 {
+      color: var(--gray-100);
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      color: var(--gray-300);
+      font-size: 1.25rem;
+      margin: 2rem 0 1rem;
+    }
+
+    .games-grid {
+      display: flex;
+      overflow-x: auto;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      justify-content: center;
+    }
+
+    .game-card {
+      background: var(--gray-800);
+      border-radius: 8px;
+      flex: 0 0 auto;
+      width: 180px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+    }
+
+    .game-card img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+
+    .game-info {
+      padding: 0.5rem 1rem 1rem;
+    }
+
+    .game-info h2 {
+      font-size: 1rem;
+      color: var(--gray-100);
+      margin-bottom: 0.25rem;
+    }
+
+    .genre {
+      font-size: 0.875rem;
+      color: var(--gray-400);
+    }
+
+    .score {
+      font-weight: bold;
+      color: var(--green-300);
+      margin-top: 0.5rem;
+    }

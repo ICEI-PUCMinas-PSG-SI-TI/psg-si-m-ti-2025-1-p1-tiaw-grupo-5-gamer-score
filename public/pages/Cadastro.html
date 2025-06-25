@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="cadastro.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/public/styles/Login.css">
+  <script src="cadastro.js"></script>
+</head>
+
+<body>
+  <main class="container">
+    <form id="formCadastro">
+      <h1>Cadastro Games Score</h1>
+
+      <div class="input-box">
+        <input name="usuario" id="usuario" placeholder="Nome de Usuário" type="text" required>
+        <i class="bx bxs-user"></i>
+      </div>
+
+      <div class="input-box">
+        <input name="senha" id="senha" placeholder="Senha" type="password" required>
+        <i class="bx bxs-lock-alt"></i>
+      </div>
+
+      <div class="input-box">
+        <input name="Favorite_genres" id="Favorite_genres" placeholder="Genero Favorito" required>
+      </div>
+
+      <div class="input-box">
+        <input name="Favorite_games" id="Favorite_games" placeholder="Jogo Favorito" required>
+      </div>
+
+      <div class="input-box">
+        <input name="processor" id="processor" placeholder="Processador" required>
+      </div>
+
+      <div class="input-box">
+        <input name="Ram" id="Ram" placeholder="Memoria ram" required>
+      </div>
+
+      <div class="input-box">
+        <input name="graphic_cards" id="graphic_cards" placeholder="Placa de video" required>
+      </div>
+
+      <div class="input-box">
+        <input name="storage" id="storage" placeholder="Armazenamento" required>
+      </div>
+
+      <div class="input-box">
+        <input name="system" id="operating_system" placeholder="Sistema" required>
+      </div>
+
+
+      <button type="submit" class="login">Criar</button>
+    </form>
+  </main>
+
+  <script>
+    document.getElementById('formCadastro').addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const Usuario = document.getElementById('usuario').value;
+      const Senha = document.getElementById('senha').value;
+      const GeneroFV = document.getElementById('Favorite_genres').value;
+      const JogoFV = document.getElementById('Favorite_games').value;
+      const Processador = document.getElementById('processor').value;
+      const MemoriaRam = document.getElementById('Ram').value;
+      const VideoDedicado = document.getElementById('graphic_cards').value;
+      const Armazenamento = document.getElementById('storage').value;
+      const Sistema = document.getElementById('operating_system').value;
+
+      try {
+        const resposta = await fetch('http://localhost:3001/users', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            username: Usuario,
+            password: Senha,
+            Favorite_genres: GeneroFV,
+            Favorite_games: JogoFV,
+            processor: Processador,
+            Ram: MemoriaRam,
+            graphic_cards: VideoDedicado,
+            storage: Armazenamento,
+            system: Sistema
+          })
+        });
+
+        if (resposta.ok) {
+          alert("Cadastro realizado com sucesso!");
+          window.location.href = "login.html"; // redireciona para login
+        } else {
+          alert("Erro ao cadastrar. Verifique os dados.");
+        }
+      } catch (erro) {
+        console.error('Erro ao cadastrar:', erro);
+        alert('Erro ao enviar os dados.');
+      }
+    });
+
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      // Aqui pode adicionar a lógica de cadastro, se necessário
+      window.location.href = 'login.html'; // Redireciona para a página de login
+    });
+  </script>
+</body>
+
+</html>

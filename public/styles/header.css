@@ -1,0 +1,172 @@
+.header {
+    background:var(--gray-800);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: start;
+    padding-left: 0.5rem;
+}
+
+.nav {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
+.header svg {
+    margin-left: 10px;
+    color:var(--gray-300);
+}
+
+.header img {
+    height: 2rem;
+}
+
+#language-select {
+
+    display: flex;
+    justify-content: end;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray-900); 
+    color: var(--gray-400);
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+
+    cursor: pointer;
+
+    transition: color 0.2s, background-color 0.2s;
+}
+
+#language-select:focus {
+    color: var(--green-500);
+}
+
+/* Botão modo escuro/claro */
+
+body{
+    transition: 1s;
+}
+
+header{
+    transition: 1s;
+}
+
+.trilho{
+    width: 40px;
+    height: 20px;
+    background-color: #4d4d44;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.trilho .indicador{
+    width: 19px;
+    height: 19px;
+    background-color:var(--gray-800);
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0px;
+    transition: 1s;
+}
+
+.trilho.dark{
+    background-color: #c3c3c3;
+}
+
+.trilho.dark .indicador{
+    left: 20px;
+    background-color: white;
+}
+
+
+body.dark{
+    background-color: #bdbdbd;
+}
+
+body.dark header{
+    background-color: #e4e4e4;
+}
+
+body.dark header svg{
+    color:  #000000;
+}
+
+body.dark header h1{
+    color:  #000000;
+}
+
+body.dark header ul li{
+    color:  #000000;
+}
+
+body.dark #language-select {
+    color: #000000;
+    background-color: #c5c5c5;
+}
+
+body.dark #language-select:focus {
+    color: #000000;
+    background-color: #e4e4e4;
+    margin-right: 30px; 
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: var(--gray-900);
+    color: var(--green-500); 
+    border: 1px solid var(--green-500);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#add-game-btn {
+  background-color: #1e1e1e;  /* tom escuro para combinar com o fundo */
+  color: white;               /* texto branco para contraste */
+  border: 2px solid black;    /* borda totalmente preta */
+  border-radius: 20px;        /* cantos arredondados suaves */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: none;
+  outline: none;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+  #add-game-btn:hover {
+  cursor: pointer;
+  background: var(--green-500);
+    color: var(--white);
+
+}
+
+/* efeito ao passar o mouse */
+#add-game-btn:hover {
+  background-color: #333;
+  transform: scale(1.03);
+}
+
+/* se clicar no botão */
+#add-game-btn:active {
+  transform: scale(0.97);
+}
+
+.dark #add-game-btn{
+    color:black;
+    background-color: #c5c5c5;
+}

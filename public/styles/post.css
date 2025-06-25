@@ -1,0 +1,178 @@
+.post {
+    background: var(--gray-800);
+    border-radius: 8px;
+    padding: 2.5rem;
+}
+
+.post + .post {
+    margin-top: 2rem;
+}
+
+.post h2 {
+    color:var(--gray-300);
+    margin-left: 0.5rem;
+}
+
+.post h3 {
+    margin-top: 1rem;
+}
+
+.content {
+    line-height: 1.6;
+    color: var(--gray-300);
+    margin-top: 1.5rem;
+}
+
+.content p {
+    margin-top: 1rem;
+
+}
+
+.content a {
+    font-weight: bold;
+    color: var(--green-500);
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: var(--green-300);
+}
+
+.post > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post > header time {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author img{
+    width: calc(3rem + 12px);
+    height: calc(3rem + 12px);
+    border-radius: 8px;
+    border: 4px solid var(--gray-800);
+    outline: 2px solid var(--green-500);
+}
+
+.authorInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.authorInfo strong {
+    color: var(--gray-100);
+    line-height: 1.6;
+}
+
+.game-name {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.authorInfo span {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+    line-height: 1.6;
+}
+
+.commentForm {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--gray-600);
+}
+
+.commentForm > strong {
+    line-height: 1.6;
+    color: var(--gray-100);
+
+}
+
+.popover {
+    background-color: var(--gray-900) !important;
+    color: var(--gray-300) !important;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #555 !important;
+}
+
+.delete-buton-div {
+    display: flex;
+    justify-content: end;
+}
+
+.delete-buton {
+    margin-top: 1rem;
+    display: flex;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border: 0;
+    background: rgb(211, 97, 97);
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.delete-buton:hover {
+    background: rgb(109, 21, 21);
+    color: var(--white);
+}
+
+.commentForm textarea {
+    width: 100%;
+    background: var(--gray-900);
+    border: 0;
+    resize: none;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.commentForm button[type=submit] {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--green-500);
+    font-weight: bold;
+}
+
+/* Botão modo escuro/claro */
+
+.dark .post {
+    background: rgb(226, 225, 225);
+}
+
+.dark .post h2 {
+    color:black;
+}
+
+.dark .content {
+    color: black;
+}
+
+.dark .post > header time {
+    font-size: 0.875rem;
+    color: rgb(34, 33, 33);
+}
+
+.dark .authorInfo strong {
+    color: black;
+}
+
+.dark .authorInfo span {
+    color: black;
+}
