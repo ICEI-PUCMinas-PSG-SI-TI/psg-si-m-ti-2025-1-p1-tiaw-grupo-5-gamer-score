@@ -1,4 +1,38 @@
-# Gamer Score
+# Informações do Projeto
+`Gamer Score`
+
+Trabalho Interdisciplinar - Aplicacões Web
+
+`CURSO`: Sistemas de Informação
+
+`SEMESTRE:` > Primeiro semestre
+
+`OBJETIVO ODS:` > Inclua os números e a descrição do(s) objetivo(s) ODS da ONU que o Projeto vai atender.
+
+## Participantes
+
+Os membros do grupo são:
+- Henrique Fonseca Araújo
+- Carolina de Ávila Freitas Leite
+- Samuel Ferreira Campos
+- Samuel Vasconcelos Rocha
+- Lucas Alaane Mesquita de Araújo
+- Thiago Batista de Souza Marcelino
+- Miguel Augusto Azevedo Maia
+
+> Inclua a lista dos membros da equipe com seus nomes completos.
+
+# Estrutura do Projeto
+
+1. [Contexto](./docs/1-Contexto.md)
+2. [Especificações do Projeto](./docs/2-Especificação.md)
+3. [Projeto da Interface](./docs/3-Interface.md)
+4. [Gerenciamento do Projeto](./docs/4-Gerenciamento-Projeto.md)
+5. [Implementação](./docs/5-Implementação.md)
+6. [Referências](./docs/6-Referências.md)
+7. [Apresentação do trabalho](./docs/apresentacao/README.md)
+
+## Gamer Score
 
 Welcome to the **[Gamer Score]** repository! This project uses **JSON Server** to simulate a backend for games and user login. Below are the instructions to set up and run the JSON Server for both games and user authentication.
 

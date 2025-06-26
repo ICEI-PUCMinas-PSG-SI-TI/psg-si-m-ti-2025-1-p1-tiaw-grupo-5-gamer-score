@@ -2,104 +2,79 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Contexto.md"> Documentação de Contexto</a></span>
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+> Esta seção tem como objetivo apresentar os elementos detalhados da especificação da solução proposta. Serão utilizados métodos como definição de **personas**, construção de **histórias de usuários**, levantamento de **requisitos funcionais e não funcionais**, além do mapeamento de **restrições** do projeto. Tais elementos ajudam a definir escopo, público e as funcionalidades essenciais da plataforma de reviews de jogos.
+
+---
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em
-se desenvolver profissionalmente através de um mestrado fora do país,
-pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está
-buscando uma agência que o ajude a encontrar universidades na Europa
-que aceitem alunos estrangeiros.
+### Persona 1 — **Henrique, o Gamer Casual**
+- **Idade:** 19 anos  
+- **Profissão:** Estudante universitário  
+- **Objetivos:** Quer aproveitar seu tempo livre jogando bons jogos, sem gastar dinheiro em títulos que não valem a pena.  
+- **Dores:** Já comprou jogos baseando-se apenas em trailers e se decepcionou com a qualidade.  
+- **Comportamento:** Costuma buscar recomendações em vídeos no YouTube ou comentários em fóruns, mas sente falta de uma fonte confiável com avaliações imparciais e estruturadas.  
+- **Tecnologias:** Acessa a internet principalmente pelo celular.
 
+### Persona 2 — **Jéssica, a Crítica Entusiasta**
+- **Idade:** 29 anos  
+- **Profissão:** Desenvolvedora de jogos independentes  
+- **Objetivos:** Compartilhar análises técnicas dos jogos que joga e acompanhar tendências do mercado.  
+- **Dores:** Sites grandes ignoram jogos indie e raramente fazem análises profundas.  
+- **Comportamento:** Valoriza plataformas que dão voz à comunidade e incentivam a diversidade de opiniões.
 
-> Enumere e detalhe as personas da sua solução. Para
-> tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-> Lembre-se que você deve ser enumerar e descrever precisamente e
-> personalizada todos os clientes ideais que sua solução almeja.
+### Persona 3 — **Carlos, o Jogador Hardcore**
+- **Idade:** 34 anos  
+- **Profissão:** Analista de TI  
+- **Objetivos:** Encontrar jogos com ótima jogabilidade e performance gráfica.  
+- **Dores:** Já foi enganado por notas exageradas de jogos AAA.  
+- **Comportamento:** Faz análises técnicas detalhadas em fóruns e quer um espaço para compartilhar suas reviews com embasamento.
+
+---
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+| EU COMO... `PERSONA`     | QUERO/PRECISO ... `FUNCIONALIDADE`                  | PARA ... `MOTIVO/VALOR`                                   |
+|--------------------------|-----------------------------------------------------|------------------------------------------------------------|
+| Usuário do sistema       | Ler análises completas de jogos                     | Tomar decisões melhores antes de comprar                   |
+| Usuário do sistema       | Cadastrar minhas próprias análises                  | Compartilhar minha experiência e ajudar outros usuários    |
+| Usuário do sistema       | Avaliar jogos com critérios objetivos               | Dar uma nota justa com base em diferentes aspectos         |
+| Desenvolvedor indie      | Ver meu jogo analisado na plataforma                | Obter visibilidade e feedback do público                   |
+| Usuário visitante        | Filtrar análises por plataforma ou gênero           | Encontrar jogos que se encaixem nas minhas preferências    |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+---
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID     | Descrição do Requisito                                                   | Prioridade |
+|--------|--------------------------------------------------------------------------|------------|
+| RF-001 | Permitir o cadastro de novos usuários                                    | ALTA       |
+| RF-002 | Permitir que usuários publiquem reviews de jogos                         | ALTA       |
+| RF-003 | Permitir avaliação de jogos com notas em critérios (gráficos, história...)| ALTA       |
+| RF-004 | Listar jogos com reviews e avaliações dos usuários                       | ALTA       |
+| RF-005 | Permitir filtragem de jogos por plataforma, gênero e nota média          | MÉDIA      |
+| RF-006 | Disponibilizar área de destaque para jogos independentes                 | MÉDIA      |
 
+### Requisitos Não Funcionais
 
-### Requisitos não Funcionais
+| ID      | Descrição do Requisito                                                | Prioridade |
+|---------|----------------------------------------------------------------------|------------|
+| RNF-001 | O sistema deve ser responsivo e adaptado para dispositivos móveis     | ALTA       |
+| RNF-002 | A página deve carregar em no máximo 3 segundos                        | MÉDIA      |
+| RNF-003 | O site deve estar disponível 24 horas por dia                         | MÉDIA      |
+| RNF-004 | A interface deve seguir boas práticas de usabilidade e acessibilidade | MÉDIA      |
+| RNF-005 | O sistema deve suportar no mínimo 500 usuários simultâneos            | BAIXA      |
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais
->   (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais
->   (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+---
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+| ID  | Restrição                                              |
+|-----|--------------------------------------------------------|
+| 01  | O projeto deverá ser entregue até o final do semestre  |
+| 02  | Não pode ser desenvolvido um módulo de backend         |
+| 03  | O sistema será hospedado utilizando GitHub Pages       |
+| 04  | Os dados de reviews serão armazenados em JSON estático |
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)

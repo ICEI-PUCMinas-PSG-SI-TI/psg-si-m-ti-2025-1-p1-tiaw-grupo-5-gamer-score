@@ -1,61 +1,17 @@
-# Introdução
+# Projeto de Plataforma de Reviews de Jogos
 
 ## Problema
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
-## Objetivos
+Com a grande quantidade de jogos disponíveis no mercado e os preços elevados desses produtos, muitos jogadores se sentem sobrecarregados com as opções disponíveis. Muitas vezes, são atraídos por publicidade enganosa ou avaliações superficiais, o que dificulta ainda mais a escolha. O problema central é a falta de uma plataforma que forneça análises detalhadas e imparciais, levando em consideração a qualidade técnica, a experiência do jogador e o desempenho de cada título.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+## Objetivo do Projeto
+
+O objetivo principal deste projeto é criar um site especializado em reviews de jogos, onde os usuários possam acessar informações confiáveis, detalhadas e bem estruturadas sobre diversos títulos. O site será projetado para atender tanto jogadores casuais quanto entusiastas, com análises que abrangem aspectos técnicos, gráficos, jogabilidade, história e outros elementos importantes de cada jogo. Além disso, contará com um sistema de avaliação baseado em critérios claros e objetivos, oferecendo ao usuário uma visão transparente sobre o que esperar de cada título.
 
 ## Justificativa
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A justificativa para o desenvolvimento deste projeto está na crescente demanda por informações bem fundamentadas sobre jogos. Embora existam diversos sites de reviews, muitos não abordam os aspectos de forma suficientemente profunda ou são excessivamente focados em certos nichos de mercado, deixando lacunas na cobertura de outros gêneros ou plataformas. Com análises detalhadas e imparciais, este site poderá preencher essa lacuna, oferecendo um serviço valioso tanto para jogadores que buscam o melhor custo-benefício quanto para aqueles que desejam experiências mais específicas e aprofundadas. Além disso, o site terá o potencial de promover desenvolvedores independentes e menos conhecidos, proporcionando uma visão mais equilibrada da indústria de jogos.
 
 ## Público-Alvo
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
+O público-alvo deste projeto abrange uma ampla gama de jogadores, desde iniciantes até gamers experientes. O site será ideal para jogadores que buscam recomendações de jogos para diferentes plataformas (PC, consoles e dispositivos móveis), bem como para aqueles que desejam explorar novos gêneros e jogos independentes. Além disso, será útil também para desenvolvedores e profissionais da indústria que desejam entender melhor o mercado e as preferências dos consumidores.
